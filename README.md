@@ -1,4 +1,4 @@
-etty WebSocket performance test
+#Jetty WebSocket performance test
 Goal –Explore jetty WebSocket implementation, monitor thread count and state during multiple, active, connection.
 
 - Step 1 –create simple WebSocket server endpoint to handle connections.

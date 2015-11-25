@@ -7,5 +7,13 @@ Goal –Explore jetty WebSocket implementation, monitor thread count and state d
 
 Test result:
 Server threads after start
+![image1](https://github.com/zgnachvi/cartrack-sockets/blob/master/1.png)
 
 
+After 500 active connections
+![image2](https://github.com/zgnachvi/cartrack-sockets/blob/master/1.png)
+
+After 1000 active connections
+![image3](https://github.com/zgnachvi/cartrack-sockets/blob/master/1.png)
+
+Conclusion –Jetty WebSocket does not propagate threads per connection.
